@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:grey;
+}
+
+.logo{
+    width: 25vh;
+    padding-left: 10%;
+    
+}
+
+
+
+.slide{
+    margin-top: .5%;
+    
+
+}
+.slide img{
+
+    height: 84vh;
+    background-size: cover;
+}
+
+
+.card-img-top{
+    height: 29vh;
+    width: 100%;
+    background-size: cover;
+}
+
+video{
+    height: 29vh;
+    width: 100%;
+   /* background-size: cover;*/
+}
+
+.card:hover {
+    transform: scale(1.1) translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(255, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(238, 7, 7, 0.1) 0px -79px 40px 0px inset, rgba(233, 3, 3, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+.card{
+    transition: all 0.4s;
+}
+
+.logoFin{
+    height: 58%;
+    width: 60%;
+    margin-left: 7%;
+}
+
+
+
+/*__________campeonato_________________*/
+.card-title{
+    font-size: xx-large;
+}
+
+.autos{
+    height: 9vh;
+    background-size: cover;
+}
+
+
+/*_____________equipos*/
+
+
+
+
+
+.carousel-inner{
+    height: 84vh;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.data-aos{
+    animation-delay: 1s;
+}
+
+.container-fluid {
+
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1%;
+}
+
+/*.navbar-collapse {
+    flex-direction: row-reverse;
+    flex-basis: auto;
+    font-size: x-large; 
+    padding-right: 6%;
+ }*/
+
+.contenedor{
+    
+    padding: 20px;
+    grid-gap: 3px;
+    display: grid;
+    width: 98%;
+    margin: 0 auto;
+    background-color: rgb(58, 4, 4);
+    border: 1px solid red;
+    grid-template-columns: auto 33% 33%;
+    grid-template-rows: auto auto 22% ; 
+    grid-template-areas:
+    "escuderia piloto1 piloto2" 
+    "nota piloto1 piloto2  "
+    " nota text1 text2"
+    
+}
+
+.escuderia{
+    grid-area: escuderia ;
+    
+}
+.piloto1{
+    grid-area:piloto1;
+    
+}
+.piloto2{
+    grid-area: piloto2;
+    
+}
+.nota{
+    padding-top: 20px;
+    grid-area: nota;
+    color: aliceblue;
+    font-size: 26px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.89);
+    
+}
+
+.piloto1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .8s;
+
+   
+}
+.piloto1:hover{
+    /*transform: scale(1.1) translateY(-1%);*/
+    box-shadow: rgb(255, 255, 255) 0px 1px 4px, rgb(255, 246, 246) 0px 0px 0px 3px;
+}
+
+.piloto2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .8s;
+}
+.piloto2:hover{
+    /*transform: scale(1.1) translateY(-1%);*/
+    box-shadow: rgb(255, 255, 255) 0px 1px 4px, rgb(255, 246, 246) 0px 0px 0px 3px;
+}
+
+
+
+
+
+
+
+
+.ferrari{
+    width:100%;
+    height: 33vh;
+    object-fit: cover;
+    
+    
+}
+
+
+.text{
+    color: aliceblue;
+    font-size: 250%;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.89);
+    
+   
+
+}   
+
+
+
+
+.Nombre_escuderia{
+    font-size: 500%;
+    text-align:center;
+    background-color:rgb(58, 4, 4);
+    color: rgb(248, 244, 244);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.gridNombre{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.gridNombre p{
+    margin-top: 24%;
+    font-size: 75%;
+}
+
+.casco_img{
+    width: 80%;
+    background-size: cover;
+
+}
+
+/*_____________galeria*/
+
+.galeria_img{
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+    transition: all .3s;
+    margin-top: 2%;
+    margin-bottom: 9%;
+    padding: 9px;
+}
+
+.galeria_img:hover {
+    transform: scale(1.1) translatey(-5px);
+    box-shadow: rgb(243, 243, 243) 0px 20px 30px -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px){
+    .Footer{
+        width: 55%;
+       
+    }
+    .logoFin{
+      
+        margin-bottom: 10%;
+    }
+}
+
+
+
+@media (max-width: 768px){
+    .logoFin{
+        
+        height: 58%;
+        width: 60%;
+    }
+}
+
+
+
+@media (max-width: 1220px){
+    .casco_img{
+        width: 0px;
+        height: 0px;
+    }
+
+    .gridNombre{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        text-align: center;
+    }
+    .gridNombre p{
+        margin-top: 0%;
+        font-size: 100%;
+
+    }
+}
+
+@media (max-width: 765px){
+    .ferrari{
+        width: 100%;
+        height: 45vh;
+    }
+}
+
+
+
+@media (max-width: 960px){
+    .Nombre_escuderia{
+        height: 0px;
+        width: 0px;
+        font-size: 0px;
+    }
+
+
+
+}
+
+@media( max-width: 765px){
+    .contenedor{
+        
+        grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr  ; 
+    grid-template-areas:
+    "escuderia  escuderia " 
+    "nota   nota"
+    " piloto1 piloto2"
+}
+.text p{
+    margin-top: -45px;
+}
+}
+
+
+@media (max-width: 991px){
+    .autos{
+        height: 7vh;
+    }
+}
+@media (max-width: 767px){
+    .autos{
+        height: 5vh;
+    }
+}
+
+@media (max-width: 575px){
+    .autos{
+        height: 11vh;
+    }
+}
+
